@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="./todojs.js"></script>
+    <link rel="stylesheet" href="todostyle.css">
+    <title> Todo App </title>
+</head>
+<body>
+    <header class="header">
+        <p> Todo App </p>
+    </header>
+    <main>
+        <div class="bg-change">
+            <button id="red"> Backgound Merah </button>
+            <button id="blue"> Backgound Biru </button>
+            <button id="white"> Backgound Putih </button>
+        </div>
+        <div class="link">
+            <button id="google"> Buka Google </button>
+            <button id="youtube"> Buka Youtube </button>
+        </div>
+        <div class="input">
+            <input type="text" id="todo" placeholder="Enter Todo...">
+            <input type="date" id="date">
+            <button id="submit"> Submit </button>
+        </div>
+        <div class="list">
+            <p> Todo List </p>
+            <table>
+                <tr>
+                    <th> ID </th>
+                    <th> Todo </th>
+                    <th> Date </th>
+                    <th> Action </th>
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
